@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(255, 255, 255); 
+    font-family: 'Oswald', sans-serif;
+}
+.box-logo {
+  /*  background-color: black;*/
+  width: 98%;
+  margin: auto 10px;
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid #00aeff;
+}
+.logo {
+  color: rgb(0, 0, 0);
+  width: 20%;
+  font-size: 30px;
+}
+ul {
+  color: rgb(0, 0, 0);
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    
+  }
+  .fa:hover {
+      opacity: 0.7; 
+      width: 45%; 
+      transition: 0.25s;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  } 
+  .fa-github {
+    background: #0c395a;
+    color: white;
+  }
+
+/* FLEXBOX */
+.box-dad {
+    display: flex; 
+    align-items: center;  
+    justify-content: space-between;
+} 
+.box-menu {  
+    width: 10%; 
+    height: 90vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+.box-about {
+  width: 70%;
+}
+  
+.titulo-about {
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+} 
+    
+h2 {
+    color: white;
+} 
+p {
+  font-size: 17px;
+  color: rgb(141, 141, 141);
+  width: 50%;
+}
+strong{
+  color: rgb(0, 92, 212);
+} 
+.maior-que {
+  color: rgb(33, 47, 172);
+} 
+.menor-que {
+  color: #00d9ff;
+}
+.border-color {
+  margin-top: 10px;
+  width: 47%;
+  border-bottom: 2px solid rgb(0, 119, 255);
+} 
+.container-skill {
+  height: 50vh;
+  background-color: rgb(177, 177, 177);
+}
+.box-skill {
+  
+}
+    
+    
+    
+
+    
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
