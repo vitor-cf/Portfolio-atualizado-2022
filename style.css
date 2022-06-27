@@ -136,8 +136,8 @@ span {
   color: rgb(122, 122, 122);
 }
 .box-projeto-pai {
-  
-  display: flex;
+  display: flex; 
+  justify-content: center;
 }
 .box-projeto {
   
@@ -148,21 +148,31 @@ span {
   justify-content: center;
   align-items: center;
 }  
+.project-box {
+  display: flex;
+  justify-content: space-evenly;
+}
 .nome-projeto {
+  
   color: rgb(0, 0, 0);
   font-size: 50px;
   font-weight: 600;
 } 
-.titulo-projeto {
-  width: 60%;
+.titulo-projeto { 
+  background-color: #4984ad;
+  width: 30%;
   display: flex;
   flex-direction: column; 
   align-items: center;
   justify-content: center;
-  margin-top: 20vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh; 
+  border-radius: 10px;
 }
+
 .text {
-  color: #008fa8;
+  text-align: center;
+  color: #ffffff;
 }
 .visit {
   color: white;
